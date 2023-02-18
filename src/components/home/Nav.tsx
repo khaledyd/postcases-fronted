@@ -15,9 +15,9 @@ export default function hi() {
 
                 }}
             />
-            <div className=' md:flex  justify-between gap-3  hidden'>
+            <div className=' md:flex  justify-between  gap-7 hidden'>
                 <button className=' w-max bg-brand-primary px-5 py-2 font-roboto  text-xl rounded text-brand-secondary'>Publish</button>
-                <button className=' text-brand-base font-roboto text-lg'>Log In</button>
+                <button className=' text-brand-base font-roboto text-lg px-5 py-2 bg-brandv3 rounded-sm '>Log In</button>
                 <NotificationsNoneOutlinedIcon sx={{
                     alignSelf: 'center',
                     fontSize: "30px"
@@ -29,7 +29,7 @@ export default function hi() {
             <div className=' md:hidden block sm:block '>
                 <MenuIcon sx={{
                     color: "#6C5CE6",
-                    fontSize: "30px"
+                    fontSize: "35px"
 
 
                 }} />

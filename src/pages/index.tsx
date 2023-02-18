@@ -4,6 +4,7 @@ import Head from 'next/head'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import MobileCard from '@/components/home/MobileCard';
 import Sidebar from '@/components/home/Sidebar';
+import NewCard from '@/components/home/NewCard';
 
 export default function Home() {
   return (
@@ -16,10 +17,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=' w-full h-max flex flex-col '>
+      <main className='    w-fit h-max flex flex-col'>
         <Nav />
-        <div className='w-full h-max  b flex justify-center mt-5'>
-          <input className=' md:w-1/3 sm:8/12  w-8/12 rounded-md   h-10  border-2  border-solid p-5
+        <div className='w-full h-max  b flex justify-center mt-5   bg-brandv3 p-3  border-b border-brand-base'>
+          <input className=' md:w-1/3 sm:8/12  w-8/12 rounded-md h-10  border-2  border-solid p-5
 
 border-brand-primary '/><SearchOutlinedIcon sx={{
             fontSize: "37px",
@@ -30,14 +31,20 @@ border-brand-primary '/><SearchOutlinedIcon sx={{
           }} />
 
         </div>
-        <div className=' w-11/12 h-max   self-center  mt-5 backdrop-blur-3xl flex '>
+        <div className=' w-11/12 h-max self-center   mt-5 backdrop-blur-3xl flex   gap-x-5  '>
           <Sidebar />
-          <div className=' w-full flex self-center flex-col'>
-            <MobileCard />
+          <div className=' w-full flex  flex-col gap-3'>
+            {/* <MobileCard />
 
             <Card />
             <Card />
-            <Card />
+            <Card /> */}
+            <NewCard />
+            <NewCard />
+            <NewCard />
+
+
+
           </div>
 
         </div>

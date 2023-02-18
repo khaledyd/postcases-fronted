@@ -6,7 +6,7 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import Image from 'next/image';
 export default function Sidebar() {
     return (
-        <div className=' sm:hidden md:block lg:block xl:block hidden   w-max h-max  bg-white  ml-5 mt-5'>
+        <div className=' sm:hidden md:block lg:block xl:block hidden   w-max h-max  bg-white '>
             <div className=' w-full h-max flex flex-col justify-center border border-brand-primary '>
                 <div className=' flex border-b-2 border-brand-base/10 p-3 '>
                     <LibraryBooksOutlinedIcon sx={{

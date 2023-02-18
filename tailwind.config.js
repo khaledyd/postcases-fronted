@@ -22,7 +22,12 @@ module.exports = {
         "brand-secondary": "#fff",
         "brand-base": "#091F3B",
         "brand-via": "#B8DDFF",
-        animlot: "#F35588",
+        "animlot": "#F35588",
+        "branv1" :"#532757",
+        "branv2" :"#353D65",
+        "brandv3" :"#EAEAEA",
+        "brandv4":"#FAFAFA"
+
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -19,7 +19,7 @@ const roboto = Roboto({
   style: ["normal"],
 });
 const poppins = Poppins({
-  weight: ["300", "400"],
+  weight: ["100", "300", "400"],
   subsets: ["latin"],
   style: ["normal"],
 });
