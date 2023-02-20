@@ -1,10 +1,9 @@
-import Card from '@/components/home/Card'
-import Nav from '@/components/home/Nav'
+
+import Nav from '../components/Nav'
 import Head from 'next/head'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import MobileCard from '@/components/home/MobileCard';
-import Sidebar from '@/components/home/Sidebar';
-import NewCard from '@/components/home/NewCard';
+import Sidebar from "../components/Sidebar";
+import BlogCard from './index/BlogCard';
 
 export default function Home() {
   return (
@@ -39,9 +38,9 @@ border-brand-primary '/><SearchOutlinedIcon sx={{
             <Card />
             <Card />
             <Card /> */}
-            <NewCard />
-            <NewCard />
-            <NewCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
 
 
 
