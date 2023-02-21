@@ -8,6 +8,7 @@ import LibraryBooksOutlinedIcon from '@mui/icons-material/LibraryBooksOutlined';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import Link from 'next/link';
 export default function Nav() {
 
     const [showNav, setShowNav] = useState(false);
@@ -83,7 +84,8 @@ export default function Nav() {
 
                             </div>
                             <div className=' flex border-b-2 border-brand-base/10 p-3 gap-4 '>
-                                <button className=' text-brand-base font-roboto text-lg px-5 py-2  bg-brand-secondary rounded-sm '>Log In</button>
+                                <Link href="/Signin"><button className=' text-brand-base font-roboto text-lg px-5 py-2  bg-brand-secondary rounded-sm '>Log In</button></Link>
+
                                 <button className=' w-max bg-brand-primary px-5 py-2 font-roboto  text-xl rounded text-brand-secondary'>Publish</button>
 
                             </div>
@@ -107,7 +109,10 @@ export default function Nav() {
                 />
                 <div className=' md:flex  justify-between  gap-7 hidden'>
                     <button className=' w-max bg-brand-primary px-5 py-2 font-roboto  text-xl rounded text-brand-secondary'>Publish</button>
-                    <button className=' text-brand-base font-roboto text-lg px-5 py-2 bg-brandv3 rounded-sm '>Log In</button>
+                    <Link href="/Signin">
+                        <button className=' text-brand-base font-roboto text-lg px-5 py-2 bg-brandv3 rounded-sm '>Log In</button>
+                    </Link>
+
 
 
                     <NotificationsNoneOutlinedIcon sx={{
