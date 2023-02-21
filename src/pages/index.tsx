@@ -3,7 +3,7 @@ import Nav from '../components/Nav'
 import Head from 'next/head'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import Sidebar from "../components/Sidebar";
-import BlogCard from './index/BlogCard';
+import BlogCard from '../components/index/BlogCard';
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main className='    w-fit h-max flex flex-col'>
         <Nav />
-        <div className='w-full h-max  b flex justify-center mt-5   bg-brandv3 p-3  border-b border-brand-base'>
+        <div className='w-full h-max  b flex justify-center mt-5   p-3  '>
           <input className=' md:w-1/3 sm:8/12  w-8/12 rounded-md h-10  border-2  border-solid p-5
 
 border-brand-primary '/><SearchOutlinedIcon sx={{

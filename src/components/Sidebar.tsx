@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function Sidebar() {
     return (
         <div className=' sm:hidden md:block lg:block xl:block hidden   w-max h-max  bg-white '>
-            <div className=' w-full h-max flex flex-col justify-center border border-brand-primary '>
+            <div className=' w-full h-max flex flex-col justify-center border border-brand-primary border-opacity-30 '>
                 <div className=' flex border-b-2 border-brand-base/10 p-3 '>
                     <LibraryBooksOutlinedIcon sx={{
                         color: "#6C5CE6"
@@ -39,7 +39,7 @@ export default function Sidebar() {
 
             </div>
 
-            <div className=' w-full h-max flex flex-col justify-center border border-brand-primary mt-6 '>
+            <div className=' w-full h-max flex flex-col justify-center border border-brand-primary mt-6 border-opacity-30 '>
                 <div className=' flex border-b-2 border-brand-base/10 p-3 bg-brand-primary  justify-center '>
 
                     <p className='  font-roboto   text-brand-secondary'>Trending</p>
