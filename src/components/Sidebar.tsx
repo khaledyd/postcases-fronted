@@ -29,13 +29,7 @@ export default function Sidebar() {
                     <p className=' ml-2 font-roboto  text-brand-base'>Account</p>
 
                 </div>
-                <div className=' flex border-b-2 border-brand-base/10 p-3 '>
-                    <SettingsOutlinedIcon sx={{
-                        color: "#6C5CE6"
-                    }} />
-                    <p className=' ml-2 font-roboto  text-brand-base '>Settings</p>
-
-                </div>
+             
 
             </div>
 
