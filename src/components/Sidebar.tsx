@@ -3,7 +3,7 @@ import LibraryBooksOutlinedIcon from '@mui/icons-material/LibraryBooksOutlined';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import Image from 'next/image';
+
 export default function Sidebar() {
     return (
         <div className=' sm:hidden md:block lg:block xl:block hidden   w-max h-max  bg-white '>
