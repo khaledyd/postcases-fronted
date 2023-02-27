@@ -12,12 +12,14 @@ import Link from 'next/link';
 export default function Nav() {
 
     const [showNav, setShowNav] = useState(false);
+    const [user, setUser] = useState(false);
 
     return (
         <div className=' w-full  h-max    shadow-sm border-b border-x-gray-500 p-5 flex justify-between relative'>
 
 
             {showNav &&
+            
                 <div className="absolute z-10 w-full h-max flex-col justify-between  md:hidden     bg-brand-secondary   drop-shadow-md left-0 top-0">
 
                     <div className=' flex justify-between w-full p-3'>
