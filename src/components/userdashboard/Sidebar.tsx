@@ -11,7 +11,7 @@ import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 export default function Sidebar() {
     return (
-        <div className='w-1/3  h-screen  bg-brandv3   flex-col   gap-6  border border-branv2 border-opacity-20  sticky top-0 hidden sm:flex rounded-md'>
+        <div className='w-full  h-screen  bg-brandv3   flex-col   gap-6  border border-branv2 border-opacity-20  sticky top-0  flex rounded-md'>
             <div className=' w-full h-max flex flex-col gap-4  items-start border-b border-branv2  p-5 border-opacity-20'>
                 <div className=' flex gap-3   items-center justify-center'>
                     <PersonOutlineIcon />

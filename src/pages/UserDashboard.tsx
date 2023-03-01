@@ -31,29 +31,31 @@ border-brand-primary '/><SearchOutlinedIcon sx={{
 
         </div>
         <div className=' w-11/12 h-max self-center   mt-5 backdrop-blur-3xl flex   gap-x-5  '>
-     <Sidebar/>
-          <div className=' w-full flex  flex-col gap-3'>
-            {/* <MobileCard />
+          <div className=' w-1/3 hidden sm:block'>       <Sidebar/></div>
+
+
+            <div className=' w-full flex  flex-col gap-3'>
+              {/* <MobileCard />
 
             <Card />
             <Card />
             <Card /> */}
-            <p className=' text-2xl  font-bold  '>List of Your post</p>
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+              <p className=' text-2xl  font-bold  '>List of Your post</p>
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
 
 
+
+            </div>
 
           </div>
-
-        </div>
       </main>
     </>
   )

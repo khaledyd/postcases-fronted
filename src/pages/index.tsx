@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='    w-fit h-max flex flex-col'>
+      <main className='   w-fit h-max flex flex-col'>
         <Nav />
         <div className='w-full h-max  b flex justify-center mt-5   p-3  '>
           <input className=' md:w-1/3 sm:8/12  w-8/12 rounded-md h-10  border-2  border-solid p-5

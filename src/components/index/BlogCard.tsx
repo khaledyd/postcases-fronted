@@ -57,8 +57,8 @@ export default function NewCard() {
                             fontSize: "50px",
                             padding: "10px 10px",
                             borderRadius: "50%",
-                            border: "1px solid ",
-                            borderColor: " #532757",
+                            border: "1px groove ",
+                            borderColor: " #f2f2f2",
                         }} />
             
                     </div>
@@ -69,8 +69,8 @@ export default function NewCard() {
                             fontSize: "50px",
                             padding: "10px 10px",
                             borderRadius: "50%",
-                            border: "1px solid ",
-                            borderColor: " #532757",
+                            border: "1px groove ",
+                            borderColor: " #f2f2f2",
                         }} />
 
                     </div>
@@ -81,8 +81,9 @@ export default function NewCard() {
                             fontSize: "50px",
                             padding: "10px 10px",
                             borderRadius: "50%",
-                            border: "1px solid ",
-                            borderColor: " #532757",
+                            border: "1px groove  ",
+                            borderOpacity:"10%",
+                            borderColor: " #f2f2f2",
                         }} />
 
                     </div>
