@@ -6,24 +6,30 @@ import BookmarkIcon from '@mui/icons-material/Bookmark';
 
 export default function PostBody() {
     return (
-        <div className=' w-full h-max  sm:p-10  '>
+        <div className=' w-full h-max     '>
+            <div className=' w-full h-1/2 bg-slate-800 flex'>
+                <img src='https://images.pexels.com/photos/571169/pexels-photo-571169.jpeg?auto=compress&cs=tinysrgb&w=1600'
+                    alt="Example Image"
+                    className=" sm:w-1/2 w-full  sm:h-auto" />
+                <div className='w-full flex-col sm:flex  gap-3 p-10  hidden' >
+                    <p className='  text-base w-max px-5 py-1 rounded bg-brand-secondary  text-brand-base/70'>React</p>
 
-            <img src='https://images.pexels.com/photos/571169/pexels-photo-571169.jpeg?auto=compress&cs=tinysrgb&w=1600'
-                alt="Example Image"
-                className="max-w-full sm:w-1/2 h-auto"
-                srcSet="https://images.pexels.com/photos/571169/pexels-photo-571169.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w,
-             https://images.pexels.com/photos/571169/pexels-photo-571169.jpeg?auto=compress&cs=tinysrgb&w=640 640w,
-             https://images.pexels.com/photos/571169/pexels-photo-571169.jpeg?auto=compress&cs=tinysrgb&w=1024 1024w,
-             https://images.pexels.com/photos/571169/pexels-photo-571169.jpeg?auto=compress&cs=tinysrgb&w=2048 2048w"/>
+                    <p className=' text-base w-max px-5 py-1 rounded bg-brand-secondary  text-brand-base/70'>UseReducer</p>
+
+                </div>
+
+
+            </div>
+
+
 
 
             <div className=' w-full flex   items-center  justify-between  mt-5 gap-3'>
-                <div className=' flex  gap-3' >
-                    <p className='  text-xs w-max px-3 py-1 rounded bg-brand-secondary  text-brand-base/70'>React</p>
-                    <p className='  text-xs w-max px-3 py-1 rounded bg-brand-secondary   text-brand-primary  font-bold'>></p>
-                    <p className=' text-xs w-max px-3 py-1 rounded bg-brand-secondary  text-brand-base/70'>UseReducer</p>
+                <div className=' sm:hidden flex  gap-3' >
+                    <p className='  text-base w-max px-3 py-1 rounded  bg-brand-base  text-brand-secondary/80'>React</p>
+                    <p className=' text-base w-max px-3 py-1 rounded  bg-brand-base  text-brand-secondary/80'>UseReducer</p>
                 </div>
-                <div className=' flex flex-col items-center  gap-1 '>
+                <div className=' flex flex-col items-center justify-end  gap-1 '>
                     <p>Jon doe</p>
                     <p className=' text-xs'>12/03/2023</p>
                 </div>
@@ -104,10 +110,10 @@ export default function PostBody() {
                         orci luctus et ultrices posuere cubilia curae; Praesent nec mattis nibh, ac interdum ex.
                         Etiam laoreet venenatis felis a egestas.
                     </p>
-                    <p  className=' self-end mt-3'>Jon doe</p>
+                    <p className=' self-end mt-3'>Jon doe</p>
 
                 </div>
-                      <div className=' flex flex-col mt-6'>
+                <div className=' flex flex-col mt-6'>
                     <p className=' p-4  bg-brand-base font-poppins   font-light rounded-md text-sm leading-7 text-brandv4'>
                         Pellentesque rutrum vehicula dolor quis ornare. Interdum et malesuada
                         fames ac ante ipsum primis in faucibus. Donec nec neque lacinia, lacinia elit a,
@@ -116,7 +122,7 @@ export default function PostBody() {
                         orci luctus et ultrices posuere cubilia curae; Praesent nec mattis nibh, ac interdum ex.
                         Etiam laoreet venenatis felis a egestas.
                     </p>
-                    <p  className=' self-end mt-3'>Jon doe</p>
+                    <p className=' self-end mt-3'>Jon doe</p>
 
                 </div>
 
