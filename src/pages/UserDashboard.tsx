@@ -4,6 +4,7 @@ import Head from 'next/head'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import Sidebar from "../components/userdashboard/Sidebar";
 import BlogCard from '../components/index/BlogCard';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -31,31 +32,47 @@ border-brand-primary '/><SearchOutlinedIcon sx={{
 
         </div>
         <div className=' w-11/12 h-max self-center   mt-5 backdrop-blur-3xl flex   gap-x-5  '>
-          <div className=' w-1/3 hidden sm:block'>       <Sidebar/></div>
+          <div className=' w-1/3 hidden sm:block'>       <Sidebar /></div>
 
 
-            <div className=' w-full flex  flex-col gap-3'>
-              {/* <MobileCard />
+          <div className=' w-full flex  flex-col gap-3'>
+            {/* <MobileCard />
 
             <Card />
             <Card />
             <Card /> */}
-              <p className=' text-2xl  font-bold  '>List of Your post</p>
+            <p className=' text-2xl  font-bold  '>List of Your post</p>
+            <Link href="/SinglePost">
               <BlogCard />
+            </Link>
+            <Link href="/SinglePost">
               <BlogCard />
+            </Link>
+            <Link href="/SinglePost">
               <BlogCard />
+            </Link>
+            <Link href="/SinglePost">
               <BlogCard />
+            </Link>
+            <Link href="/SinglePost">
               <BlogCard />
+            </Link>
+            <Link href="/SinglePost">
               <BlogCard />
+            </Link>
+            <Link href="/SinglePost">
               <BlogCard />
+            </Link>
+            <Link href="/SinglePost">
               <BlogCard />
-              <BlogCard />
+            </Link>
 
 
 
-            </div>
 
           </div>
+
+        </div>
       </main>
     </>
   )

@@ -16,7 +16,7 @@ export default function PostBody() {
 
                     <p className=' text-base w-max px-5 py-1 rounded bg-brand-secondary  text-brand-base/70'>UseReducer</p>
 
-                </div>
+                </div> 
 
 
             </div>
@@ -132,3 +132,6 @@ export default function PostBody() {
         </div>
     )
 }
+
+
+
