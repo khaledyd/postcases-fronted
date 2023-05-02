@@ -13,10 +13,10 @@ export default function Sidebar() {
     return (
         <div className='w-full  h-screen  bg-brandv3   flex-col   gap-6  border border-branv2 border-opacity-20  sticky top-0  flex rounded-md'>
             <div className=' w-full h-max flex flex-col gap-4  items-start border-b border-branv2  p-5 border-opacity-20'>
-                <div className=' flex gap-3   items-center justify-center'>
+                {/* <div className=' flex gap-3   items-center justify-center'>
                     <PersonOutlineIcon />
                     <p>Account</p>
-                </div>
+                </div> */}
                 <div className=' flex gap-3   items-center justify-center'>
                     <SettingsIcon />
                     <p>Settings</p>

@@ -3,6 +3,7 @@ import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ShareIcon from '@mui/icons-material/Share';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
+import Notes from './Notes';
 
 export default function PostBody() {
     return (
@@ -16,7 +17,7 @@ export default function PostBody() {
 
                     <p className=' text-base w-max px-5 py-1 rounded bg-brand-secondary  text-brand-base/70'>UseReducer</p>
 
-                </div> 
+                </div>
 
 
             </div>
@@ -101,30 +102,8 @@ export default function PostBody() {
                         }} /></p>
                     <button className=' rounded-md w-max px-5 py-3 bg-brand-primary text-brand-secondary'>Add Notes</button>
                 </div>
-                <div className=' flex flex-col mt-6'>
-                    <p className=' p-4  bg-brand-base font-poppins   font-light rounded-md text-sm leading-7 text-brandv4'>
-                        Pellentesque rutrum vehicula dolor quis ornare. Interdum et malesuada
-                        fames ac ante ipsum primis in faucibus. Donec nec neque lacinia, lacinia elit a,
-                        porttitor eros. Nulla eu mollis metus. Vestibulum ante ipsum primis in faucibus
-
-                        orci luctus et ultrices posuere cubilia curae; Praesent nec mattis nibh, ac interdum ex.
-                        Etiam laoreet venenatis felis a egestas.
-                    </p>
-                    <p className=' self-end mt-3'>Jon doe</p>
-
-                </div>
-                <div className=' flex flex-col mt-6'>
-                    <p className=' p-4  bg-brand-base font-poppins   font-light rounded-md text-sm leading-7 text-brandv4'>
-                        Pellentesque rutrum vehicula dolor quis ornare. Interdum et malesuada
-                        fames ac ante ipsum primis in faucibus. Donec nec neque lacinia, lacinia elit a,
-                        porttitor eros. Nulla eu mollis metus. Vestibulum ante ipsum primis in faucibus
-
-                        orci luctus et ultrices posuere cubilia curae; Praesent nec mattis nibh, ac interdum ex.
-                        Etiam laoreet venenatis felis a egestas.
-                    </p>
-                    <p className=' self-end mt-3'>Jon doe</p>
-
-                </div>
+                <Notes />
+             
 
             </div>
 

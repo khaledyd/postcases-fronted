@@ -75,9 +75,11 @@ export default function Home() {
           theme="snow" />
 
       </div>
+      <div>
+
+      </div>
+
     </div>
 
   )
-
-
 }

@@ -35,7 +35,15 @@ border-brand-primary '/><SearchOutlinedIcon sx={{
           <div className=' w-1/3 hidden sm:block'>       <Sidebar /></div>
 
 
+
           <div className=' w-full flex  flex-col gap-3'>
+            <div className=' w-full h-max bg-brandv3/30 flex flex-col    p-6'>
+              <div className='  w-24   h-24 rounded-full bg-[url("https://images.pexels.com/photos/12903578/pexels-photo-12903578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")] bg-brand-primary self-center bg-center bg-cover border border-brand-primary'></div>
+              <p className=' self-center pt-1   text-sm  text-brand-base font-poppins '>John doe</p>
+              <p className=' self-center pt-1   text-xs  text-brand-base/70 font-poppins '>300 Followers</p>
+              <p className=' self-center pt-1   text-xs  text-brand-base/50 font-poppins  text-center'>Lorem ipsum dolor sit amet consectetur.</p>
+              <button className=' w-max px-5  bg-brand-primary py-2   rounded-lg mt-3 text-base font-roboto   text-brand-secondary self-center '>Update Bio</button>
+            </div>
             {/* <MobileCard />
 
             <Card />
