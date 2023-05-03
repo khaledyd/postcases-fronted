@@ -19,29 +19,29 @@ export default function Sidebar() {
                 </div> */}
                 <div className=' flex gap-3   items-center justify-center'>
                     <SettingsIcon />
-                    <p>Settings</p>
+                    <p className=' text-brand-base/50'>Settings</p>
                 </div>
                 <div className=' flex gap-3   items-center justify-center'>
                     <LocalLibraryIcon />
-                    <p>Library</p>
+                    <p className=' text-brand-base/50'>Library</p>
                 </div>
                 <div className=' flex gap-3   items-center justify-center'>
                     <FavoriteBorderIcon />
-                    <p>favorites</p>
+                    <p className=' text-brand-base/50'>favorites</p>
                 </div>
                 <div className=' flex gap-3   items-center justify-center'>
                     <ListIcon />
-                    <p>Lists</p>
+                    <p className=' text-brand-base/50'>Lists</p>
                 </div>
                 <div className=' flex gap-2  items-center justify-center'>
 
-                    <p>Followings</p>
+                    <p className=' text-brand-base/50'>Followings</p>
                     <p className=' rounded-full w-1 h-1 bg-branv1'></p>
                     <p className=' text-xs font-thin'>100</p>
                 </div>
                 <div className=' flex gap-2  items-center justify-center'>
 
-                    <p>Followers</p>
+                    <p className=' text-brand-base/50'>Followers</p>
                     <p className=' rounded-full w-1 h-1 bg-branv1'></p>
                     <p className=' text-xs font-thin'>100</p>
                 </div>
@@ -51,11 +51,11 @@ export default function Sidebar() {
             <div className=' w-full h-max flex flex-col gap-4  items-start border-b border-branv2  p-5 border-opacity-20'>
                 <div className=' flex gap-3   items-center justify-center'>
                     <LocalActivityIcon />
-                    <p>Activites</p>
+                    <p className=' text-brand-base/50'>Activites</p>
                 </div>
                 <div className=' flex gap-3   items-center justify-center'>
                     <UpdateIcon />
-                    <p>Updates</p>
+                    <p className=' text-brand-base/50'>Updates</p>
                 </div>
 
 
@@ -64,13 +64,13 @@ export default function Sidebar() {
             <div className=' w-full h-max flex flex-col gap-4  items-start border-b border-branv2  p-5 border-opacity-20'>
                 <div className=' flex gap-3   items-center justify-center'>
                     <RemoveRedEyeIcon />
-                    <p>Views</p>
+                    <p className=' text-brand-base/50'>Views</p>
                     <p className=' text-xs font-poppins'>10,00</p>
                 </div>
                 <div className=' flex gap-2   items-center justify-center'>
                     <TrendingUpIcon />
-                    <p>Reach</p>
-                    <p>10%</p>
+                    <p className=' text-brand-base/50'>Reach</p>
+                    <p className=' text-brand-base/50'>10%</p>
                     <ArrowDropUpIcon />
 
                 </div>
