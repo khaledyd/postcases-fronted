@@ -19,7 +19,7 @@ export default function NewCard() {
                         <p className='     w-2 h-2 rounded-full  self-center bg-brand-primary'></p>
                         <p className=' font-poppins font-light text-xs self-center   text-brand-base/50'>3 days ago</p>
                     </div>
-                    <p className='   text-brand-base/70    font-openSans  font-light    text-sm   mt-5  leading-6  w-full'>consectetur adipiscing elit. Integer at laoreet turpis. Etiam nec risus consecteturadipiscing elit. Integerat laoreet turpis.Etiam nec risus vitae est tristiquevitaeest tristique
+                    <p className='   text-brand-base/70    font-openSans  font-light    text-sm   mt-5  leading-6  w-full'>consectetur adipiscing elit. Integer at laoreet turpis. Etiam nec risus consecteturadipiscing elit. Integerat laoreett turpis.Etiam nec risus vitae est tristiquevitaeest tristique
                         consectetur adipiscing elit. Integer at laoreet turpis. Etiam nec risus consecteturadipiscing
                         elit. Integerat laoreet turpis.Etiam necst tristique
                         consectetur adipiscing elit. Integer at laoreet turpis.
